@@ -2313,6 +2313,11 @@ to ensure that they are correctly created.
   and restrict access to all or parts of Tanzu Developer Portal.
   For more information, see [Troubleshooting](tap-gui/troubleshooting.hbs.md#ad-block-interference).
 
+- When installing Tanzu Developer Portal for the first time, there might be a transient failure
+  during reconciliation. No action is needed because the reconciliation succeeds during the
+  automatic retry. The issue is related to the order of creation for Kubernetes resources.
+  A fix is planned for a later release.
+
 #### <a id='1-7-0-intellij-plugin-ki'></a> v1.7.0 Known issues: Tanzu Developer Tools for IntelliJ
 
 - The error `com.vdurmont.semver4j.SemverException: Invalid version (no major version)` is shown in
@@ -2337,9 +2342,6 @@ to ensure that they are correctly created.
 
 - Clicking the red square Stop button in the Visual Studio top toolbar can cause a workload to fail.
   For more information, see [Troubleshooting](vs-extension/troubleshooting.hbs.md#stop-button).
-
-#### <a id='1-7-0-tdp-ki'></a> v1.7.0 Known issues: Tanzu Developer Portal
-- On first install, Tanzu Developer Portal will sometimes experience a transient failure during reconciliation. No action is needed as reconcile will succeed during automatic retry. The issue is related to the order of creation for Kubernetes resources and will be addressed in a future release.
 
 ---
 
