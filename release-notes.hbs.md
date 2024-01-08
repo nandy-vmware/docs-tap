@@ -307,10 +307,13 @@ This release has the following breaking changes, listed by component and area.
 This release has the following security fixes, listed by component and area.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>accelerator.apps.tanzu.vmware.com</td>
 <td><details><summary>Expand to see the list</summary><ul>
@@ -465,6 +468,7 @@ This release has the following security fixes, listed by component and area.
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-3712">CVE-2021-3712</a></li>
 </ul></details></td>
 </tr>
+</tbody>
 </table>
 
 ---
@@ -505,10 +509,13 @@ This release has the following known issues, listed by component and area.
 This release has the following security fixes, listed by component and area.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>buildservice.tanzu.vmware.com</td>
 <td><details><summary>Expand to see the list</summary><ul>
@@ -599,6 +606,7 @@ This release has the following security fixes, listed by component and area.
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2022-45886">CVE-2022-45886</a></li>
 </ul></details></td>
 </tr>
+</tbody>
 </table>
 
 ---
@@ -643,6 +651,7 @@ This release has the following known issues, listed by component and area.
 This release has the following security fixes, listed by component and area.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
@@ -795,10 +804,13 @@ This release has the following known issues, listed by component and area.
 This release has the following security fixes, listed by component and area.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>apis.apps.tanzu.vmware.com</td>
 <td><details><summary>Expand to see the list</summary><ul>
@@ -839,6 +851,7 @@ This release has the following security fixes, listed by component and area.
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-2004">CVE-2023-2004</a></li>
 </ul></details></td>
 </tr>
+</tbody>
 </table>
 
 ---
@@ -858,10 +871,13 @@ This release introduces no new known issues.
 This release has the following security fixes, listed by component and area.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>buildservice.tanzu.vmware.com</td>
 <td><details><summary>Expand to see the list</summary><ul>
@@ -888,6 +904,7 @@ This release has the following security fixes, listed by component and area.
 <li><a href="https://github.com/advisories/GHSA-f9xv-q969-pqx4">GHSA-f9xv-q969-pqx4</a></li>
 </ul></details></td>
 </tr>
+</tbody>
 </table>
 
 ---
@@ -945,10 +962,13 @@ This release introduces no new known issues.
 This release has the following security fixes, listed by component and area.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>accelerator.apps.tanzu.vmware.com</td>
 <td><details><summary>Expand to see the list</summary><ul>
@@ -1087,6 +1107,7 @@ This release has the following security fixes, listed by component and area.
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-26114">CVE-2023-26114</a></li>
 </ul></details></td>
 </tr>
+</tbody>
 </table>
 
 ---
@@ -1537,10 +1558,13 @@ This release has the following breaking changes, listed by area and component.
 This release has the following security fixes, listed by area and component.
 
 <table>
+<thead>
 <tr>
 <th>Package Name</th>
 <th>Vulnerabilities Resolved</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>buildservice.tanzu.vmware.com</td>
 <td><details><summary>Expand to see the list</summary><ul>
@@ -1621,6 +1645,7 @@ This release has the following security fixes, listed by area and component.
 <li><a href="https://nvd.nist.gov/vuln/detail/CVE-2023-0286">CVE-2023-0286</a></li>
 </ul></details></td>
 </tr>
+</tbody>
 </table>
 
 >**Note** CVE-2023-0179, CVE-2023-1281 and CVE-2023-0461 are high severity vulnerabilities.
