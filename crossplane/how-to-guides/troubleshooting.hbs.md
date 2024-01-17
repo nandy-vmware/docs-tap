@@ -90,6 +90,8 @@ For example, to inject CA certificates you can use this sample in the [Kyverno d
 > `shared.ca_cert_data` of `tap-values.yaml` and configure the Crossplane Providers accordingly.
 > This workaround will no longer be needed.
 
+---
+
 ## <a id="validatingwebhookconfig"></a>The `validatingwebhookconfiguration` is not removed when you uninstall the Crossplane Package
 
 **Symptom:**
