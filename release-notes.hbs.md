@@ -235,6 +235,12 @@ The following issues, listed by component and area, are resolved in this release
 
 - Tanzu Mission Control has support for this Tanzu Application Platform release.
 
+#### <a id='1-7-3-scst-store-ri'></a> v1.8.0 Resolved issues: Supply Chain Security Tools - Store
+
+- Artifact Metadata Repository now properly sets the `hasNextPage` to `false` when there are
+no more items to be retrieved during a paginated query. This fixes the issue
+where the last page always returns an empty list.
+
 ---
 
 ### <a id='1-7-3-known-issues'></a> v1.7.3 Known issues
