@@ -357,6 +357,12 @@ This release has the following known issues, listed by component and area.
   [gitops](scc/gitops-vs-regops.hbs.md#gitopsagitops) step. As a workaround, use
   [HTTPS auth](scc/git-auth.hbs.md#httpahttp).
 
+#### <a id='1-7-3-scst-scan-ki'></a> v1.7.3 Known issues: Supply Chain Security Tools - Scan
+
+- The Snyk scanner outputs an incorrectly created date, resulting in an invalid date. For more
+information, see this [issue](https://github.com/snyk-tech-services/snyk2spdx/issues/54) in the Snyk
+Github repository.
+
 #### <a id='1-7-3-scst-scan-2-ki'></a> v1.7.3 Known issues: Supply Chain Security Tools (SCST) - Scan 2.0
 
 - When using SCST - Scan 2.0 with a ClusterImageTemplate, the value for the scanning image is overwritten
