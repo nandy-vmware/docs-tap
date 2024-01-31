@@ -109,6 +109,8 @@ This release has the following security fixes, listed by component and area.
 
 ### <a id='1-5-9-known-issues'></a> v1.5.9 Known issues
 
+This release has the following known issues, listed by component and area.
+
 #### <a id='1-5-9-scst-scan-ki'></a> v1.5.9 Known issues: Supply Chain Security Tools - Scan
 
 - The Snyk scanner outputs an incorrectly created date, resulting in an invalid date. For more
